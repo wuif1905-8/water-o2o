@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+header{
+    box-shadow:none;
+    justify-content: center;
+}
+/**搜索框**/
+#serach{
+    height:0.6rem;
+    padding: 0.17rem 0.22rem;
+}
+#serach>span{
+    position: relative;
+    float: left;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    color: #4ebbfe;
+}
+#serach>span::after{
+    content: "";
+    position: absolute;
+    top:0.18rem;
+    right:-0.3rem;
+    width:0.1rem;
+    height:0.1rem;
+    border:0.03rem solid;
+    border-color:transparent #4ebbfe #4ebbfe transparent ;
+    transform: rotateZ(45deg);
+    transform-origin: 0.05rem 0.05rem;
+}
+#serach>a{
+    display: block;
+    float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+    background-color: #ebf7ff;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    letter-spacing: 0.01rem;
+    color: #c8d9e6;
+    text-indent: 0.37rem;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/**轮播图**/
+#banner{
+    position: relative;
+    height:2.99rem;
+}
+#banner>li{
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+
+/**功能列表**/
+#flist{
+    height:7.3rem;
+    display: flex;
+    padding: 0 0.22rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#flist>li{
+    width:33.333%;
+    height:33.333%;/**1.64rem;*/
+}
+#flist>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    align-content: center;
+}
+#flist>li .list-con{
+    width: 1.13rem;
+    height:1.13rem;/**1.64rem;**/
+    text-align: center;
+}
+.list-con .icon{
+    width:1.13rem;
+    height:1.13rem;
+    background-image: linear-gradient(180deg, #30a3fe 0%, #6fd5fe 100%),
+    linear-gradient(#000000, #000000);
+    background-blend-mode: normal, normal;
+    border-radius: 50%;
+}
+#flist>li span{
+    font-size: 0.24rem;
+    color: #8e9397;
+    margin-top: 0.3rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+
+#bottom .tag:nth-child(1){
+    opacity: 1;
+}

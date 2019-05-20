@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#myinfo{
+    height:3.38rem;
+    padding: 0 0.33rem;
+    background-color: #4ebbfe;
+}
+
+
+
+/**底部***/
+#bottom>.tag:nth-child(5){
+    opacity: 1;
+}
