@@ -1,0 +1,65 @@
+@import "base.css";
+header{
+    height:0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+header > a > i{
+    color: #4ebbfe;
+}
+/**/
+.contend{
+    padding: 0 0.52rem;
+}
+.contend > .contendspan{
+    padding: 0.6rem 0;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.contend > .contendspan > span{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.7);
+    display: block;
+    margin-top: 0.44rem;
+    text-align: center;
+    position: relative;
+}
+.contend > .contendspan > span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2rem;
+    margin: auto;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #3ab1ff;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(58, 177, 255, 0.43);
+    border-radius: 0.025rem;
+}
+.contend > .contendspan > span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2rem;
+    margin: auto;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #3ab1ff;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(58, 177, 255, 0.43);
+    border-radius: 0.025rem;
+}
+.contend > pre{
+    margin: 0.7rem 0;
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.5);
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}

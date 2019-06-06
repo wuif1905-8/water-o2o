@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>优惠券</title>
+    <link rel="stylesheet" href="./css/conpon.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1194343_utgyu3dfpyh.css">
+</head>
+<body>
+
+<header>
+    <a href="personCenter.html">
+        <i class="iconfont icon-2fanhui"></i></a>
+    <span>优惠券</span>
+    <a href=""></a>
+</header>
+
+<div class="main">
+    <a href="coupon.html"><img src="./image/weishiyong.png" alt="" class="img1"></a>
+    <a href="doneConpon.html"><img src="./image/yishiyong.png" alt="" class="img2"></a>
+    <a href="dateConpon.html"><img src="./image/yiguoqi.png" alt=""></a>
+</div>
+<ul class="top">
+    <li><img src="./image/green.png" alt=""></li>
+    <li><img src="./image/blue.png" alt=""></li>
+    <li><img src="./image/orange.png" alt=""></li>
+</ul>
+
+</body>
+</html>

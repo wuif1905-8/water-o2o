@@ -1,0 +1,35 @@
+@import "base.css";
+header{
+    height:0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+header > a > i{
+    color: #4ebbfe;
+}
+/**/
+.contend{
+    padding: 0.82rem 0.52rem;
+}
+
+.contend > img{
+    width: 4rem;
+    height: 4rem;
+    opacity: 0.5;
+    margin:  0 auto;
+}
+.contend > span{
+    font-size: 0.8rem;
+    color: #41b2fc;
+    display: block;
+    margin-top: 0.8rem;
+    text-align: center;
+}

@@ -1,0 +1,165 @@
+@import "base.css";
+header{
+    height:0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+header > a > i{
+    color: #4ebbfe;
+}
+.Contend > .img {
+    padding-top: 3.06rem;
+}
+.Contend > .img> img{
+    margin: 0 auto;
+    width: 2.98rem;
+    height: 2.7rem;
+}
+.Contend >p {
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+.Contend > a{
+    display: block;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Contend > a > .add{
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    padding: 0.16rem 0.5rem;
+}
+.contend{
+    padding: 0.68rem 0.22rem;
+    box-sizing: border-box;
+    height: auto;
+}
+.contend > li{
+    display: flex;
+    padding: 0.32rem 0;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.05);
+}
+.contend > li >.img{
+    width: 1.74rem;
+    height: 1.74rem;
+    margin-right:  0.58rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contend > li >.img >img{
+    width: 1.19rem;
+    height: 1.25rem;
+}
+/**/
+.er{
+    padding: 0.68rem 0.22rem;
+}
+.er > ul > li{
+    height: 2.18rem;
+    margin-bottom: 0.74rem;
+}
+.date{
+    height: 1.62rem;
+    background-color: #e7f6ff;
+    border-radius: 8px;
+    opacity: 0.5;
+    margin-bottom: 0.32rem;
+    position: relative;
+}
+.er > ul > li > .date > span.name{
+    font-size: 0.24rem;
+    color: #3bacfe;
+    margin-left: 0.36rem;
+    margin-right: 0.38rem;
+}
+.er > ul > li > .date > span.tel{
+    font-size: 0.3rem;
+    color: #36a8fe;
+}
+.er > ul > li > .date > span.dz{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 1.72rem;
+    top: 0.6rem;
+}
+.er > ul > li >.banner{
+    height: 0.24rem;
+}
+.er > ul > li >.banner >li >span{
+    font-size: 0.22rem;
+    color: #36a8fe;
+    opacity: 0.5;
+    float: left;
+    margin-left: 0.16rem;
+}
+/*.er > ul > li >.banner >li >img{*/
+/*    width: 0.24rem;*/
+/*    height: 0.34rem;*/
+/*    float: left;*/
+/*}*/
+.er i{
+    color: #e7f6ff;
+    font-size: 0.24rem;
+    float: left;
+}
+.er i.hot{
+    color: #37e06f;
+    font-size: 0.24rem;
+    float: left;
+}
+.er > ul > li >.banner >li >img.detel{
+    width: 0.3rem;
+    height: 0.3rem;
+    float: right;
+    margin-right: 0.68rem;
+}
+.er > ul > li >.banner >li >img.bianji{
+    width: 0.3rem;
+    height: 0.26rem;
+    float: right;
+}
+
+
+/**/
+.butten > a{
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.butten > a > .add{
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin-left: 0.9rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    padding: 0.16rem 1.8rem;
+    position: absolute;
+    bottom: 0.44rem;
+}
+.butten > a{
+    padding: 0.68rem 0.22rem;
+    box-sizing: border-box;
+    height: auto;
+}

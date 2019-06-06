@@ -1,0 +1,58 @@
+@import "base.css";
+
+header{
+    height:0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header > a{
+    color: #4ebbfe;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-2fanhui:before {
+    content: "\e605";
+}
+
+.main{
+    margin-top: 0.42rem;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 0.35rem;
+
+}
+.main > a {
+    display: block;
+    float: left;
+}
+.main > a > img{
+    display: block;
+    width: 1.36rem;
+    height: 0.53rem;
+}
+.img1{
+    display: block;
+    margin-right: 0.2rem;
+}
+.img2{
+    display: block;
+    margin-right: 0.2rem;
+}
+.top > li {
+    margin: 0rem 0.2rem 0.2rem 0.2rem;
+}

@@ -1,0 +1,95 @@
+@import "base.css";
+header{
+    height:0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+header > a > i{
+    color: #4ebbfe;
+}
+/**/
+.Date{
+    padding: 0.4rem 0;
+}
+.Date > li {
+    height: 0.9rem;
+    line-height: 0.9rem;
+    padding: 0.32rem 0.42rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.02);
+}
+.Date >li > a >span{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.2rem;
+    position: relative;
+}
+.Date >li > a >span.name{
+    color: rgba(0,0,0,0.7);
+    float: right;
+    margin-right: 0.3rem;
+}
+.Date >li > a >span.tel{
+    font-size: 0.3rem;
+    color: #36a8fe;
+    float: right;
+    margin-right: 0.3rem;
+}
+.Date >li > a >span.o::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -0.2rem;
+    margin: auto;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(68, 181, 255, 0.43);
+    border-radius: 0.025rem;
+}
+.Date >li > a >img.toux{
+    width: 0.58rem;
+    height: 0.58rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+.Date >li > a >img.sex{
+    width: 0.24rem;
+    height: 0.38rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+.Date >li > a > i{
+    color: #3bacfe;
+    font-size: 0.22rem;
+    float: right;
+}
+/**/
+.butten > a{
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.butten > a > .add{
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin-left: 1.7rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    padding: 0.16rem 1.8rem;
+}
+.butten{
+    padding: 0.68rem 0.22rem;
+    box-sizing: border-box;
+    height: auto;
+}

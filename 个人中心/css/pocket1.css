@@ -1,0 +1,70 @@
+@import "base.css";
+header{
+    height:0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+header > a > i{
+    color: #4ebbfe;
+}
+
+
+/**/
+.contend{
+    padding: 0.3rem 0.22rem;
+}
+.img {
+    height: 3.32rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0.84rem;
+    border-bottom:0.02rem solid rgba(0,0,0,0.04) ;
+}
+.img > li >img{
+    width: 2.17rem;
+    height: 1.08rem;
+}
+.img > li > span{
+    font-size: 0.2rem;
+    color: #97c6e9;
+    position: absolute;
+    margin-left: 0.64rem;
+}
+.money > input {
+    width: 4.75rem;
+    height: 0.76rem;
+    background-color: #e7f6ff;
+    border-radius: 0.15rem;
+    opacity: 0.5;
+    margin-top: 0.86rem;
+}
+
+.butten{
+    padding: 0.68rem 0.22rem;
+    box-sizing: border-box;
+    height: auto;
+    position: absolute;right: 0;
+    top: 5.2rem;
+}
+.butten > a{
+    display: block;
+    margin-top: 0.5rem;
+}
+.butten > a > .add {
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin-left: 0.31rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    padding: 0.16rem 0.5rem;
+}

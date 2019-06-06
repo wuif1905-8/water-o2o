@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人资料</title>
+    <link rel="stylesheet" href="./css/person.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1194343_utgyu3dfpyh.css">
+</head>
+</head>
+<body>
+    <header>
+        <a href="./personCenter.html"><i class="iconfont icon-fanhui"></i></a>个人资料<i></i>
+    </header>
+    <!--header-->
+    <ul class="Date">
+        <li>
+            <a href="">
+                <span class="o">头像</span>
+                <i class="iconfont icon-xiangyou"></i>
+                <img src="./image/store.png" alt="" class="toux">
+
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <span class="o">真实姓名</span>
+                <i class="iconfont icon-xiangyou"></i>
+                <span class="name">张琰敏</span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <span class="o">性别</span>
+                <i class="iconfont icon-xiangyou"></i>
+                <img src="./image/store.png" alt="" class="sex">
+
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <span class="o">手机号</span>
+                <i class="iconfont icon-xiangyou"></i>
+                <span class="tel">111-1111-1111</span>
+
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <span class="o">支付密码</span>
+                <i class="iconfont icon-xiangyou"></i>
+            </a>
+        </li>
+    </ul>
+    <div class="butten">
+        <a href="">
+            <span class="add">保存</span>
+        </a>
+    </div>
+
+</body>
+</html>

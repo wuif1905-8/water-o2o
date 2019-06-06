@@ -1,0 +1,147 @@
+@import "base.css";
+header{
+    height:0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+header > a > i{
+    color: #4ebbfe;
+}
+/**/
+.Contend{
+    padding: 0.3rem 0.52rem  ;
+
+}
+.Contend > img{
+    width: 6.4rem;
+    height: 1.86rem;
+    box-shadow: 0 0.04rem 0.08rem 0 rgba(41, 167, 255, 0.36);
+}
+/*.Contend >.lable{*/
+/*    height: 0.74rem;*/
+/*}*/
+.Contend >.lable{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0.74rem;
+}
+.Contend >.lable > li {
+    height: 0.74rem;
+}
+.Contend >.lable > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Contend >.lable > li > a > p{
+    font-size: 0.24rem;
+    color: #8e9397;
+}
+.Contend >.lable > li > a > p.a{
+    font-size: 0.46rem;
+    color: #4ebbfe;
+    /*box-shadow: 0 0.04rem 0.08rem 0 rgba(41, 167, 255, 0.36);*/
+}
+.Contend >.lable > li > a > p.b{
+    font-size: 0.46rem;
+    color: #2dde59;
+    /*box-shadow: 0 0.04rem 0.08rem 0 rgba(46, 213, 147, 0.36);*/
+}
+.Contend >.lable > li > a > p.c{
+    font-size: 0.46rem;
+    color: #ffb83a;
+    /*box-shadow: 0 0.04rem 0.08rem 0 rgba(255, 213, 53, 0.36);*/
+}
+.Contend >.select >li{
+    height: 0.9rem;
+    padding: 0.2rem 0;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.02);
+    display: flex;
+    align-items: center;
+}
+.Contend > .select > li > a{
+    position: relative;
+}
+.Contend >.select >li span{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.7);
+}
+.Contend >.select >li span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -0.2rem;
+    margin: auto;
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0px 0.02rem 0.05rem 0px rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+.Contend >.select >li.tel{
+    margin-bottom: 1.2rem;
+}
+.Contend >.select >li p{
+    font-size: 0.36rem;
+    color: #fe624e;
+    position: absolute;
+    left: 5.8rem;
+    top: 0;
+}
+
+
+
+
+
+/**/
+.footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #f1f9ff;
+    /*opacity: 0.5;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.1rem 0.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.footer > li {
+    height: 0.85rem;
+    opacity: 0.6;
+}
+.footer > li.hot{
+    opacity: 1;
+}
+.footer > li > a{
+    width: 100%;
+    height: 100%;
+}
+.footer > li > a >img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.footer > li > a > span{
+    width: 0.47rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #59c3fe;
+    margin-top: 0.5rem;
+}

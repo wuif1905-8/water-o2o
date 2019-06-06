@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>客服中心</title>
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1194343_utgyu3dfpyh.css">
+</head>
+<body>
+    <header>
+        <a href="./personCenter.html"><i class="iconfont icon-fanhui"></i></a>客服中心<i></i>
+    </header>
+    <!--header-->
+    <div class="contend">
+        <img src="./image/timg.jpg" alt="">
+        <span>下个版本再见</span>
+    </div>
+</body>
+</html>

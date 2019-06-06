@@ -1,0 +1,109 @@
+@import "base.css";
+header{
+    height:0.88rem;
+    text-align: center;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+header > a > i{
+    color: #4ebbfe;
+}
+/**/
+
+.contend{
+    padding: 0 0.52rem;
+}
+.contend > .contendImg{
+    width: 6.8rem;
+    height: 2.24rem;
+    padding-top: 0.88rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.contend > .contendImg > span{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.7);
+    display: block;
+    margin-top: 0.44rem;
+    text-align: center;
+    position: relative;
+}
+span.money{
+    color:#34da87 ;
+}
+.contend > .contendImg > span.parent::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2.3rem;
+    margin: auto;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #34da87;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(52, 218, 135, 0.43);
+    border-radius: 0.025rem;
+}
+.contend > .contendImg > span.parent::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2.3rem;
+    margin: auto;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #34da87;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(52, 218, 135, 0.43);
+    border-radius: 0.025rem;
+}
+.weixin > img{
+    width: 1.06rem;
+    height: 1.06rem;
+}
+.select{
+    display: flex;
+    position: absolute;
+    left:1.2rem;
+    top: 0.3rem;
+}
+.select > span{
+    font-size: 0.28rem;
+    color: #47505f;
+}
+.select > img{
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-left: 3.8rem;
+}
+.pay{
+    position: relative;
+}
+/**/
+.butten{
+    padding: 0.68rem 0.22rem;
+    box-sizing: border-box;
+    height: auto;
+    position: absolute;right: 0;
+    top: 9rem;
+}
+/*.butten > a{*/
+/*    display: block;*/
+/*    margin-top: 0.5rem;*/
+/*}*/
+.butten > .add {
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin-right: 1.5rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    padding: 0.16rem 1.5rem;
+}

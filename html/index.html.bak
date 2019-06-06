@@ -12,7 +12,7 @@
     <body>
         <header><span>晋彤</span></header>
         <div id="serach">
-            <span>太原</span>
+            <span><a href="address.html">太原</a></span>
             <a href="search.html">搜索您需要的服务 商品</a>
         </div>
         <ul id="banner">
