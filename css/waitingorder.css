@@ -1,0 +1,259 @@
+body{
+    /*padding: 0 0.22rem;*/
+    background-color: #fbfeff;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0 0.22rem;
+    margin-bottom: 0.66rem;
+    width: 100%;
+    height: 0.88rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    background-color: #fbfeff ;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    z-index: 999;
+    box-shadow: 0rem 0.03rem 0.03rem 0rem
+    rgba(41, 167, 255, 0.13);
+}
+header >a {
+    text-decoration: none;
+    color: #4ebbfe;
+}
+div.state{
+    padding: 0 0.22rem;
+    height: 0.8rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0);
+    margin-top: 0.88rem;
+}
+span.woT{
+    float: left;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 0.8rem;
+}
+span.orderfollow{
+    float: right;
+    line-height: 0.8rem;
+    font-size: 0.26rem;
+    color: #bae6ff;
+}
+.orderfollow>a{
+    color: #bae6ff;
+}
+section{
+    padding: 0 0.22rem;
+    margin-top: 0.44rem;
+}
+.image{
+    float: left;
+    display: block;
+    width: 1.74rem;
+    height:1.74rem ;
+    float: left;
+    margin-right: 0.24rem;
+    background-color: #ffffff ;
+    box-shadow:0  0.001rem  0.021rem  0;
+rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    position: relative;
+}
+section .image>img{
+    width:1.19rem;
+    height:1.19rem ;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.26rem;
+}
+.shoppinglistItem{
+    height: 1.74rem;
+}
+.listContent{
+    height: 1.74rem;
+    position: relative;
+    margin-left: 0.26rem;
+}
+.
+
+.listContent span{
+    width: 100%;
+    display: block;
+}
+span.waitingorder{
+    float: right;
+    font-size: 0.25rem;
+    color: #43c93e;
+}
+span.type{
+    color: #8a8c8d;
+}
+.time{
+    color: #41b2fc;
+    font-size: 0.27rem;
+}
+.name{
+    width: 2.15rem;
+    height: 0.28rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.3rem;
+    font-weight: bolder;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+}
+.type{
+    width: 1.56rem;
+    height: 0.18rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    padding: 0.2rem 0 0.2rem 0 ;
+    position: relative;
+}
+
+span.price{
+    display: block;
+    margin-top: 0.65rem;
+    height: 0.2rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548
+}
+div.pay{
+    width: 100%;
+    height: 1.2rem;
+    margin-top: 0.68rem;
+}
+
+span.info{
+    text-align: right;
+    font-size: 0.22rem;
+    width: 100%;
+    float: right;
+    color: #8a8c8d;
+}
+.payList{
+    float: right;
+}
+.payList>span>img{
+    border-radius: 0.3rem;
+}
+div.customerService1{
+    width: 1.66rem;
+    height: 0.6rem;
+    background-color: #e7f6ff;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.27rem;
+    letter-spacing: 1px;
+    color: #3bacfe;
+    bottom: 0.3rem;
+    right: 0.4rem;
+    float: right;
+    margin-left: 0.22rem;
+    position: absolute;
+    bottom: 0.22rem;
+    right: 2.6rem;
+}
+div.customerService{
+    width: 2.0rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    height: 0.6rem;
+    background-color: #32d797;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.27rem;
+    letter-spacing: 1px;
+    color: #32d797;
+    bottom: 0.3rem;
+    right: 0.4rem;
+    float: right;
+    margin-left: 0.22rem;
+    position: absolute;
+    bottom: 0.22rem;
+    right: 0.22rem;
+}
+div.customerService>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+div.customerService1>a{
+    text-decoration: none;
+    color: #3bacfe;
+}
+.orderInfo {
+    width: 100%;
+    margin-top: 0.76rem;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 21px 0px
+    rgba(223, 223, 223, 0.43);
+    border-radius: 10px;
+}
+.orderInfo>li{
+    padding-left: 0.8rem;
+    font-size: 0.24rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    letter-spacing: 1px;
+    color: #8a8c8d;
+}
+.orderInfoimg{
+    margin-top: 0.17rem;
+    margin-right: 0.3rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0 0.18rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.24rem;
+    border: solid 0.02rem #ffffff;
+    float: left;
+}
+.orderInfoimg>img{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 0.24rem;
+}
+.orderInfo>li>p{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3aa9fb;
+}
+.orderInfo>div{
+    width: 7.04rem;
+    height: 002px;
+    background-color: #000000;
+    opacity: 0.02;
+}
+span.left{
+    height: 0.88rem;
+    display: block;
+    width: 1.5rem;
+    float: left;
+}
+span.number{
+    float: right;
+    padding-right: 0.44rem;
+    letter-spacing: normal;
+}

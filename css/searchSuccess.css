@@ -1,0 +1,216 @@
+@import "base.css";
+body {
+    background: #FFFFFF;
+}
+.top{
+    box-shadow: 0 2px 15px rgba(78,187,254,0.2);
+}
+header{
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header .iconfont {
+    color: #4ebbfe;
+    font-size: 0.44rem;
+}
+.search{
+    padding: 0.17rem 0.22rem;
+    width: 7.12rem;
+    height: 0.6rem;
+    position: relative;
+}
+.search > a{
+    display: block;
+    width: 7.12rem;
+    height: 0.6rem;
+    background-color: #ebf7ff;
+    border: solid 3px rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    line-height: 0.6rem;
+    position: absolute;
+    top: 0.1rem;
+}
+.search::before{
+    content: '';
+    width: 0.79rem;
+    height: 0.44rem;
+    background-color: #a4e0bd;
+    border-radius: 0.21rem;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.3rem;
+}
+.order{
+    height: 0.88rem;
+    padding: 0 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    font-size:0.22rem;
+    color: #4ebbfe;
+    background-color: #fbfeff;
+    /*box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);*/
+    /*box-shadow:0 2px 15px rgba(78,187,254,0.2) ;*/
+}
+.order > li.hot{
+    color:#36d;
+}
+.order > li > .iconfont{
+    font-size: 0.22rem;
+    margin-left: 0.2rem;
+}
+.list{
+    width: 100%;
+    min-height:10rem;
+    top: 2rem;
+    bottom: 0;
+    padding: 0 0.22rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.listItem{
+    height: 1.74rem;
+    margin-bottom: 0.66rem;
+    overflow: hidden;
+}
+.listItem .leftImg{
+    width: 1.74rem;
+    height: 1.74rem;
+    background: #4ebbfe;
+    float: left;
+    box-shadow: 0 1px 21px 0 rgba(223, 223, 223, 0.43);
+    border-radius: 10px;
+}
+.leftImg img {
+    width: 100%;
+    height: 100%;
+}
+.listItem .right{
+    width: auto;
+    height: 1.74rem;
+    float: left;
+    padding-left:0.2rem ;
+}
+.right .itemTitle {
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.right .first{
+    height: 0.3rem;
+    width: 5rem;
+    margin-top: 0.1rem;
+    overflow: hidden;
+}
+.right .first .point {
+    float: left;
+    width:2.3rem ;
+    height: 100%;
+    position: relative;
+}
+.right .first span {
+    padding-left: 0.2rem;
+    width: 1rem;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    font-size: 0.22rem;
+    box-sizing: border-box;
+    /*color: #000000;*/
+    opacity: 0.3;
+}
+.right .point::before {
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50rem;
+    display: inline-block;
+    background-color: #36d681;
+    position: absolute;
+    top: 0.13rem;
+    left: 0rem;
+}
+h3 {
+    width: 1.2rem;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    font-size: 0.22rem;
+    color: #36a8fe;;
+}
+.second {
+    width: 100%;
+}
+.second ul{
+    margin-top: 0.1rem;
+    height: 0.35rem;
+    width: auto;
+    overflow: hidden;
+}
+.second ul li{
+    margin-right: 0.3rem;
+    width: 1.21rem;
+    height: 0.35rem;
+    background-color: #3babff;
+    border-radius: 18px;
+    /*opacity: 0.1;*/
+    float: left;
+}
+.second ul li p{
+    font-size: 0.24rem;
+    color:black;
+    text-align: center;
+}
+.third {
+    margin-top: 0.15rem;
+    width: 100%;
+    height:0.3rem;
+    overflow: hidden;
+}
+.third .sale{
+    height: 100%;
+    width: 0.9rem;
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.3;
+    float: left;
+    margin-right:3.0rem;
+}
+.third .pay {
+    height: 100%;
+    font-size: 0.26rem;
+    color: #fbb548;
+    float: left;
+}
+section{
+    width: 100%;
+    height:12.06rem;
+    display: none;
+}
+.none{
+    width: 100%;
+    height: 100%;
+}
+.none > img {
+    margin: 3.17rem  2.08rem auto 2rem;
+    width: 3.38rem;
+    height: 2.06rem;
+}
+.alarm{
+    text-align: center;
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.4;
+}
+.sorry{
+    margin-top: 0.52rem;
+    margin-bottom: 0.1rem;
+}

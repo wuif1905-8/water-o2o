@@ -1,0 +1,128 @@
+body{
+    /*padding: 0 0.22rem;*/
+    background-color: #fbfeff;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0 0.22rem;
+    margin-bottom: 0.66rem;
+    width: 100%;
+    height: 0.88rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    background-color: #fbfeff ;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    z-index: 999;
+    box-shadow: 0rem 0.03rem 0.03rem 0rem
+    rgba(41, 167, 255, 0.13);
+}
+header >a {
+    text-decoration: none;
+    color: #4ebbfe;
+}
+section{
+    padding: 0 0.38rem;
+    margin-top: 0.44rem;
+}
+ul.orderList{
+    margin-top: 1.2rem;
+}
+ul.orderList>li{
+    border-bottom:2px solid #f6f9fa;
+    padding-bottom: 0.22rem;
+    padding-top: 0.22rem;
+}
+ul.orderList>li>span{
+    margin-left: 0.22rem;
+    width: 100%;
+}
+span.htittle{
+    position: relative;
+    width: 100%;
+}
+.hot::before{
+    background: red;
+    content: " ";
+    display: block;
+    height: 0.1rem;
+    width: 0.1rem;
+    border: 0.05rem solid #41b2fc!important;
+    /*background: #fff;*/
+    position: absolute;
+    top: 0.12rem;
+    left: -0.26rem;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+}
+span.htittle::before{
+    content: " ";
+    display: block;
+    height: 0.1rem;
+    width: 0.1rem;
+    border: 0.05rem solid #cccaca;
+    /*background: #fff;*/
+    position: absolute;
+    top: 0.12rem;
+    left: -0.26rem;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+span.htittle:after{
+    position: absolute;
+    content: "";
+    width: 0.02rem;
+    height: 1.5rem;
+    background: #e0dfdf;
+    right: 0.15rem;
+    top: 0.35rem;
+}
+ul.orderList li:nth-child(3)>.htittle:after{
+    background: #fbfeff;
+}
+span.orderinfo{
+    font-family: PingFangSC-Semibold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+}
+span.ordertime{
+    margin-top: 0.32rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+    opacity: 0.4;
+}
+div.customerService{
+    width: 1.66rem;
+    height: 0.6rem;
+    background-color: #e7f6ff;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.27rem;
+    letter-spacing: 1px;
+    color: #3bacfe;
+    position: absolute;
+    bottom: 0.3rem;
+    right: 0.4rem;
+}
+div.customerService>a{
+    text-decoration: none;
+    color: #3bacfe;
+}

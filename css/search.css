@@ -1,0 +1,101 @@
+@import "base.css";
+body {
+    background: #FFFFFF;
+}
+.top{
+    box-shadow: 0 2px 15px rgba(78,187,254,0.2);
+}
+header{
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header .iconfont {
+    color: #4ebbfe;
+    font-size: 0.44rem;
+}
+.search{
+    padding: 0.17rem 0.22rem;
+    width: 7.12rem;
+    height: 0.6rem;
+    position: relative;
+}
+.search > a{
+    display: block;
+    width: 7.12rem;
+    height: 0.6rem;
+    background-color: #ebf7ff;
+    border: solid 3px rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    line-height: 0.6rem;
+    position: absolute;
+    top: 0.1rem;
+}
+.search::before{
+    content: '';
+    width: 0.79rem;
+    height: 0.44rem;
+    background-color: #a4e0bd;
+    border-radius: 0.21rem;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.3rem;
+}
+.recent{
+    width: auto;
+    box-sizing: border-box;
+    padding: 0 0.26rem;
+}
+.vTitle{
+    margin-bottom:0.1rem;
+    overflow: hidden;
+    width: auto;
+    height: 0.94rem;
+    font-size: 0.32rem;
+    color: #41b2fc;
+    position: relative;
+}
+.vTitle::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0;
+rgba(68, 181, 255, 0.43);
+    position: absolute;
+    top: 49%;
+}
+.vTitle > p{
+    float: left;
+    line-height: 0.94rem;
+}
+.vTitle > .p1{
+    margin-left: 0.22rem;
+}
+.item{
+    width: 5.5rem;
+    height: 1.18rem;
+}
+.item > a{
+    padding: 0.11rem 0.22rem 0.01rem 0.22rem;
+    display: inline-block;
+    width: auto;
+    height: 0.48rem;
+    background-color: #e7f6ff;
+    border-radius: 0.24rem;
+    color: #36a8fe;
+    font-size: 0.26rem;
+    margin-right: 0.19rem;
+    margin-bottom: 0.24rem;
+}
+.all{
+    width: auto;
+    box-sizing: border-box;
+    padding: 0 0.26rem;
+}

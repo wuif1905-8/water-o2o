@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name ="viewport" content ="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1,user-scalable=no">
+    <meta charset="UTF-8">
+</head>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/appraise.css">
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_1194369_bfivq4e5un.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<header>
+    <a href="index.html" class="iconfont icon-fanhui"></a>
+    <span>订单</span>
+    <a href=""></a>
+</header>
+<div class="nav">
+    <span><a href="">全部</a></span>
+    <span ><a href="order.html">待支付</a></span>
+    <span><a href="service.html">待服务</a></span>
+    <span><a href="">待收货</a></span>
+    <span class="spec"><a href="appraise.html">待评价</a></span>
+</div>
+<section>
+    <ul class="list">
+
+            <li class="shoppinglistItem">
+                <a href="" class="image">
+                    <img src="../前台/img/QQ图片20190518151626.png" alt="">
+                </a>
+                <div class="listContent">
+                    <span class="name"><span>潜艇高端水龙头</span></span>
+                    <span class="type"><i></i><span>ECC01-001Lw</span></span>
+                    <span class="info"><i></i><span>商品规格潜水艇高端龙头</span></span>
+                    <span class="price"><i></i><span>￥60</span></span>
+                </div>
+            </li>
+
+    </ul>
+    <div class="pay"><span class="pay">实付款：￥60</span></div>
+    <div class="payList">
+        <span><a href=""><img src="../前台/img/QQ图片20190527084256.png" alt=""></a></span>
+        <span><a href=""><img src="../前台/img/QQ图片20190527084323.png" alt=""></a></span>
+    </div>
+</section>
+<footer>
+    <a href=""><img src="../../前台/img/sy.png" alt="">首页</a>
+    <a href="./product.html"><img src="../前台/img/store.png" alt="">商城</a>
+    <a href=""><img src="../../前台/img/rz.png" alt="">入驻</a>
+    <a href="./order.html"  class="hot"><img src="../前台/img/order.png" alt="">订单</a>
+    <a href=""><img src="../../前台/img/personal.png" alt="">我的</a>
+</footer>
+</body>
+</html>
