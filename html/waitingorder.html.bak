@@ -6,8 +6,8 @@
     <meta name ="viewport" content ="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1,user-scalable=no">
     <meta charset="UTF-8">
 </head>
-<link rel="stylesheet" href="../CSS/base.css">
-<link rel="stylesheet" href="../CSS/waitingorder.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/waitingorder.css">
 <link rel="stylesheet" href="//at.alicdn.com/t/font_1194369_bfivq4e5un.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +25,7 @@
         <ul class="list">
             <li class="shoppinglistItem">
                 <a href="" class="image">
-                    <img src="../../前台/img/QQ图片20190518151626.png" alt="">
+                    <img src="../前台/img/QQ图片20190518151626.png" alt="">
                 </a>
                 <div class="listContent">
                     <span class="name"><span>潜艇高端水龙头</span> <span class="waitingorder">待接单</span></span><br>
@@ -48,7 +48,7 @@
         </ul>
         <ul class="orderInfo" style="margin-top: 0.22rem">
             <li>
-                <div class="orderInfoimg"><img src="../../前台/img/c6cc6b88b69be5e75a8e676921f08c38679656f625974-mRgjUN_fw658拷贝.jpg" alt=""> </div>
+                <div class="orderInfoimg"><img src="../前台/img/c6cc6b88b69be5e75a8e676921f08c38679656f625974-mRgjUN_fw658拷贝.jpg" alt=""> </div>
                 <p>专业团队，优质服务</p>
                 <div class="QQ"><a href=""></a></div>
                 <div class="phone"><a href=""></a></div>

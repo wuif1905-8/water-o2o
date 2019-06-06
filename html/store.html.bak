@@ -19,7 +19,7 @@
             <i class="iconfont icon-gengduo"></i>
         </header>
         <div id="city">
-            <a href="address.html">
+            <a href="#">
                 <span>搜索您需要定位的城市</span>
                 <div class="seaicon">
                     <i class="iconfont icon-sousuo1"></i>

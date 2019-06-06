@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/searchSuccess.css">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_1195729_24y90x3gtvoj.css">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_1195729_nl3l86sr7mq.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1195729_24y90x3gtvoj.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1195729_nl3l86sr7mq.css">
     <title>搜索结果</title>
 	<script src="../js/media.js"></script>
 </head>
@@ -19,7 +19,7 @@
     <p></p>
 </header>
      <div class="search">
-    <a href=""></a>
+    <a href="search.html"></a>
 </div>
 </div>
 <div class="success" style="display: block">
@@ -36,8 +36,8 @@
     </ul>
     <div class="list">
         <ul class="scroll">
-            <li class="listItem"><a href="xiangqing.html">
-                <div class="leftImg"><img src="./image/l5.png" alt=""></div>
+            <li class="listItem"><a href="detail.html">
+                <div class="leftImg"><img src="../img/long.png" alt=""></div>
                 <div class="right">
                     <div class="itemTitle">
                         龙头维修
@@ -64,8 +64,8 @@
                 </div>
             </a>
             </li>
-            <li class="listItem"><a href="xiangqing.html">
-                <div class="leftImg"><img src="./image/l5.png" alt=""></div>
+            <li class="listItem"><a href="detail.html">
+                <div class="leftImg"><img src="../img/long.png" alt=""></div>
                 <div class="right">
                     <div class="itemTitle">
                         龙头维修
@@ -92,8 +92,8 @@
                 </div>
             </a>
             </li>
-            <li class="listItem"><a href="xiangqing.html">
-                <div class="leftImg"><img src="./image/l5.png" alt=""></div>
+            <li class="listItem"><a href="detail.html">
+                <div class="leftImg"><img src="../img/long.png" alt=""></div>
                 <div class="right">
                     <div class="itemTitle">
                         龙头维修
@@ -120,8 +120,8 @@
                 </div>
             </a>
             </li>
-            <li class="listItem"><a href="xiangqing.html">
-                <div class="leftImg"><img src="./image/l5.png" alt=""></div>
+            <li class="listItem"><a href="detail.html">
+                <div class="leftImg"><img src="../img/long.png" alt=""></div>
                 <div class="right">
                     <div class="itemTitle">
                         龙头维修
@@ -148,8 +148,8 @@
                 </div>
             </a>
             </li>
-            <li class="listItem"><a href="xiangqing.html">
-                <div class="leftImg"><img src="./image/l5.png" alt=""></div>
+            <li class="listItem"><a href="detail.html">
+                <div class="leftImg"><img src="../img/long.png" alt=""></div>
                 <div class="right">
                     <div class="itemTitle">
                         龙头维修

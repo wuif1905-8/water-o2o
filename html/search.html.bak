@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="http://at.alicdn.com/t/font_1195729_nl3l86sr7mq.css">
     <link rel="stylesheet" href="../css/search.css">
     <title>搜索</title>
+	<script src="../js/media.js"></script>
 </head>
 <body>
 <div class="top">

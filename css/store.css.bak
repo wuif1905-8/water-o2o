@@ -78,6 +78,7 @@ i.icon-sousuo1{
     overflow: hidden;
 }
 .mlist{
+    display: none;
     margin-top: 0.5rem;
 }
 .mlist.active{

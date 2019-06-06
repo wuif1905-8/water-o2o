@@ -37,10 +37,6 @@ header .iconfont {
     width: 100%;
     height: 4.79rem;
 }
-.map>img{
-	width:100%;
-	height:100%;
-}
 .vicinity{
     width: 100%;
     box-sizing: border-box;

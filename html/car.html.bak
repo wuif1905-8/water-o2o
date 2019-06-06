@@ -22,7 +22,7 @@
     <div id="carCon">
         <ul class="carlist">
             <li>
-                <a href="detail.html">
+                <a href="#">
                     <div class="check">
 
                     </div>
@@ -43,7 +43,7 @@
                 </a>
             </li>
             <li>
-                <a href="detail.html">
+                <a href="#">
                     <div class="check active">
 
                     </div>
@@ -64,7 +64,7 @@
                 </a>
             </li>
             <li>
-                <a href="detail.html">
+                <a href="#">
                     <div class="check">
 
                     </div>

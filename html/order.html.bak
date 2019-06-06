@@ -27,7 +27,7 @@
     <section>
         <ul class="list">
             <li class="shoppinglistItem">
-                <a href="" class="image">
+                <a href="detail.html" class="image">
                     <img src="../前台/img/QQ图片20190518151626.png" alt="">
                 </a>
                 <div class="listContent">
@@ -45,8 +45,8 @@
         </div>
     </section>
     <footer>
-        <a href=""><img src="../前台/img/sy.png" alt="">首页</a>
-        <a href="./product.html"><img src="../../前台/img/store.png" alt="">商城</a>
+        <a href="index.html"><img src="../前台/img/sy.png" alt="">首页</a>
+        <a href="./store.html"><img src="../前台/img/store.png" alt="">商城</a>
         <a href=""><img src="../前台/img/rz.png" alt="">入驻</a>
         <a href="./order.html"  class="hot"><img src="../前台/img/order.png" alt="">订单</a>
         <a href=""><img src="../前台/img/personal.png" alt="">我的</a>

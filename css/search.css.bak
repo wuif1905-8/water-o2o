@@ -37,9 +37,6 @@ header .iconfont {
     line-height: 0.6rem;
     position: absolute;
     top: 0.1rem;
-	margin:auto;
-	left:0;
-	right:0;
 }
 .search::before{
     content: '';
