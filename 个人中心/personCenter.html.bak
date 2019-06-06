@@ -66,11 +66,11 @@
 
    <!---->
     <ul class="footer">
-        <li class="hot"><a href="../html/index.html"><img src="./image/sy.png" alt=""><span>首页</span></a></li>
+        <li><a href="../html/index.html"><img src="./image/sy.png" alt=""><span>首页</span></a></li>
         <li><a href="../html/store.html"><img src="./image/store.png" alt=""><span>商城</span></a></li>
         <li><a href=""><img src="./image/rz.png" alt=""><span>入驻</span></a></li>
         <li><a href="../html/order.html"><img src="./image/order.png" alt=""><span>订单</span></a></li>
-        <li><a href=""><img src="./image/personal.png" alt=""><span>我的</span></a></li>
+        <li class="hot"><a href=""><img src="./image/personal.png" alt=""><span>我的</span></a></li>
     </ul>
     <!--footer-->
 </body>
