@@ -123,6 +123,7 @@ span.type{
     font-stretch: normal;
     letter-spacing: 0.01rem;
     color: #000000;
+    opacity: 0.65;
 }
 .type{
     width: 1.56rem;

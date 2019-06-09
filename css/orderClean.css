@@ -59,7 +59,7 @@ span.spec{
     border-bottom:2px solid #36a8fe ;
     opacity: 1;
 }
-section{
+/*section{
     padding: 0 0.22rem;
     margin-top: 0.44rem;
 }
@@ -82,7 +82,7 @@ section .image>img{
     position: absolute;
     left: 0.2rem;
     top: 0.26rem;
-}
+}*/
 .shoppinglistItem{
     height: 1.74rem;
 }
@@ -100,11 +100,11 @@ section .image>img{
     height: 0.28rem;
     font-family: PingFangSC-Semibold;
     font-size: 0.3rem;
-    font-weight: bolder;
+    font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0.01rem;
     color: #000000;
-    opacity: 0.65;
+    opacity: 0.6;
 }
 .type{
     width: 1.56rem;
@@ -161,21 +161,9 @@ span.pay{
 }
 .payList{
     float: right;
-    position: relative;
 }
 .payList>span>img{
     border-radius: 0.3rem;
-}
-.cancel{
-    width: 98px;
-    position: absolute;
-    right: 104px;
-}
-.payment{
-    width: 98px;
-    position: absolute;
-    right: -5px;
-    top: -1px;
 }
 footer{
     height: 0.98rem;
