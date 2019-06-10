@@ -188,7 +188,7 @@ footer{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 footer>a{
