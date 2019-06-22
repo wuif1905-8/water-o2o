@@ -8,6 +8,13 @@
         <title>Document</title>
         <link rel="stylesheet" href="../css/public.css">
         <link rel="stylesheet" href="../css/index.css">
+		<link href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet">
+		<style type="text/css">
+			.swiper-container {
+                width: 100%;
+                height: 100%;
+            }
+		</style>
     </head>
     <body>
         <header><span>晋彤</span></header>
@@ -16,9 +23,23 @@
             <a href="search.html">搜索您需要的服务 商品</a>
         </div>
         <ul id="banner">
-            <li><img src="../img/banner.png" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
+            <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="../img/banner.png" alt=""></div>
+                                <div class="swiper-slide"><img src="../img/banner.png" alt=""></div>
+                                <div class="swiper-slide"><img src="../img/banner.png" alt=""></div>
+                                <div class="swiper-slide"><img src="../img/banner.png" alt=""></div>
+                            </div>
+                            <!-- 如果需要分页器 -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- 如果需要导航按钮 -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                            <!-- 如果需要滚动条 -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
         </ul>
         <ul id="flist">
             <li>
@@ -32,7 +53,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="waterComprehensive.html">
                 <div class="list-con">
                     <div class="icon">
                         <img src="../img/l2.png" alt="">
@@ -42,7 +63,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="waterComprehensive.html">
                 <div class="list-con">
                     <div class="icon">
                         <img src="../img/l3.png" alt="">
@@ -52,7 +73,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="waterComprehensive.html">
                 <div class="list-con">
                     <div class="icon">
                         <img src="../img/l4.png" alt="">
@@ -62,7 +83,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="waterComprehensive.html">
                 <div class="list-con">
                     <div class="icon">
                         <img src="../img/l5.png" alt="">
@@ -72,7 +93,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="waterComprehensive.html">
                 <div class="list-con">
                     <div class="icon">
                         <img src="../img/l6.png" alt="">
@@ -82,7 +103,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="waterComprehensive.html">
                 <div class="list-con">
                     <div class="icon">
                         <img src="../img/l7.png" alt="">
@@ -92,7 +113,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="waterComprehensive.html">
                 <div class="list-con">
                     <div class="icon">
                         <img src="../img/l8.png" alt="">
@@ -136,7 +157,34 @@
         </div>
         
         
-        
+        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.min.js"></script>
         <script src="../js/media.js"></script>
+
+		<script>
+            var mySwiper = new Swiper ('.swiper-container', {
+                direction: 'horizontal', // 垂直切换选项
+                loop: true, // 循环模式选项
+                autoplay:true,
+                // 如果需要分页器
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable :true,
+                    dynamicBullets: true,
+                    dynamicMainBullets: 1
+                },
+
+                // 如果需要前进后退按钮
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // 如果需要滚动条
+                // scrollbar: {
+                //     el: '.swiper-scrollbar',
+                // },
+            })
+        </script>
     </body>
 </html>

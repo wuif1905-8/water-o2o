@@ -60,7 +60,7 @@ header{
 #flist{
     height:7.3rem;
     display: flex;
-    padding: 0.5rem 0.22rem 0;
+    padding: 1rem 0.22rem 0;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
